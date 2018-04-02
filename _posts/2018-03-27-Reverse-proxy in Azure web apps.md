@@ -30,6 +30,7 @@ Lets create the third application with no content to act as reverse proxy.
 
 ```
 * Create web.config file in wwwroot folder and place the routing rules as
+
 ``` xml
 <configuration>
 <system.webServer>
@@ -47,6 +48,7 @@ Lets create the third application with no content to act as reverse proxy.
 </rewrite>
 </system.webServer>
 </configuration>
+
 ```
 * Once applicationHost.xdt and web.config file is saved. Browse to [http://rpapp.azurewebsites.net/demapi2](http://rpapp.azurewebsites.net/demapi2) to load content from [http://app1.azurewebsites.net/] (http://app1.azurewebsites.net/) without changing the url. Similarly you can test for [http://app2.azurewebsites.net/] (http://app2.azurewebsites.net/)
 
