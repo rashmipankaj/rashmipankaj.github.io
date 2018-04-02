@@ -44,7 +44,7 @@ Create a new folder in file system. Open the folder in [Visual Studio Code](http
 
 * Run ``` docker ps ``` to get the container id.
 
-* Run ``` docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" <container id> ``` to get the ip address of the container.
+* Run ``` docker inspect -f "{{.NetworkSettings.Networks.nat.IPAddress}}" <container id> ``` to get the ip address of the container.
  
 * Browse to ip to test your application on windows container.
 
