@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: false
+#relative_permalinks: false
 
 # Setup
 title:                Lets learn n Code
@@ -13,6 +13,7 @@ baseurl:             ''
 paginate:            5
 
 plugins: [jekyll-paginate]
+paginate_path: "page:num" 
 # About/contact
 author:
   name:              Rashmi Tripathi
