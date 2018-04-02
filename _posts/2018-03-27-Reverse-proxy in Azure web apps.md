@@ -50,7 +50,7 @@ Lets create the third application with no content to act as reverse proxy.
 </configuration>
 
 ```
-* Once applicationHost.xdt and web.config file is saved. Browse to [http://rpapp.azurewebsites.net/demapi2](http://rpapp.azurewebsites.net/demapi2) to load content from [http://app1.azurewebsites.net/] (http://app1.azurewebsites.net/) without changing the url. Similarly you can test for [http://app2.azurewebsites.net/] (http://app2.azurewebsites.net/)
+* Once applicationHost.xdt and web.config file is saved. Browse to [http://rpapp.azurewebsites.net/demapi2](http://rpapp.azurewebsites.net/demapi2) to load content from [http://app1.azurewebsites.net/](http://app1.azurewebsites.net/) without changing the url. Similarly you can test for [http://app2.azurewebsites.net/](http://app2.azurewebsites.net/)
 
 References: [http://ruslany.net/2014/05/using-azure-web-site-as-a-reverse-proxy/](http://ruslany.net/2014/05/using-azure-web-site-as-a-reverse-proxy/)
 
